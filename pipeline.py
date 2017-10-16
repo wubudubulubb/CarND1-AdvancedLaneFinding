@@ -175,9 +175,8 @@ class Lane():
             # TODO: sanity check here
             self.add_line(polyline_fit[0], polyline_fit[1], polyline_fit[2])
         else:
-            self.reset = True
             self.update(xbase, binary_warped)
-            self.reset = False
+
 
     def get_pts(self):
         self.xPts = np.array([(y**2)*self.A() + y*self.B() + self.C()
