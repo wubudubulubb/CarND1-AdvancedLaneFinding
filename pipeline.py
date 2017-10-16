@@ -225,6 +225,7 @@ class FrameProcessor():
         if self.first_estimation:
             self.left_line.update(leftx_base, out_img)
             self.right_line.update(rightx_base, out_img)
+            self.first_estimation = False
         else:
             self.left_line.update_using_previous(leftx_base, out_img)
             self.right_line.update_using_previous(rightx_base, out_img)
