@@ -13,7 +13,7 @@ The goals / steps of this project are the following:
 
 [//]: # (Image References)
 
-[image1]: ./output_images/undistorted_calibration_3.jpg "Undistorted"
+[image1]: ./output_images/undistorted_calibration3.jpg "Undistorted"
 [image2]: ./cal_images/calibration_3.jpg "calibration image 3"
 [image3]: ./test_images/straight_lines1.jpg "Straight Lines Original"
 [image4]: ./output_images/undistorted_straight_lines1.jpg "Straight Lines 1 undistorted"
